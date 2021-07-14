@@ -1,0 +1,809 @@
+2021-07-03 02:11:45.112 [INFO] [restartedMain] [com.stockmarket.Stockmarket2FAuthentication.Stockmarket2FAuthenticationApplication:55] Starting Stockmarket2FAuthenticationApplication using Java 1.8.0_201 on Lab-637604800757300608-1 with PID 15912 (C:\Users\User\Codebase\Stockmarket2FAuthentication\target\classes started by User in C:\Users\User\Codebase\Stockmarket2FAuthentication)
+2021-07-03 02:11:45.113 [INFO] [restartedMain] [com.stockmarket.Stockmarket2FAuthentication.Stockmarket2FAuthenticationApplication:659] No active profile set, falling back to default profiles: default
+2021-07-03 02:11:46.194 [INFO] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-03 02:11:46.264 [INFO] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2021-07-03 02:11:46.654 [INFO] [restartedMain] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7633bea2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 02:11:46.657 [INFO] [restartedMain] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-03 02:11:46.851 [INFO] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 9999 (http)
+2021-07-03 02:11:46.852 [INFO] [restartedMain] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2021-07-03 02:11:46.853 [INFO] [restartedMain] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-03 02:11:46.895 [INFO] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2021-07-03 02:11:46.896 [INFO] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 1775 ms
+2021-07-03 02:11:47.016 [WARN] [restartedMain] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 02:11:47.083 [DEBUG] [restartedMain] [org.hibernate.jpa.internal.util.LogHelper:102] PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1978c314
+
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Users/User/Codebase/Stockmarket2FAuthentication/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.stockmarket.Stockmarket2FAuthentication.model.Role
+		com.stockmarket.Stockmarket2FAuthentication.model.User]
+	Mapping files names []
+	Properties []
+2021-07-03 02:11:47.084 [DEBUG] [restartedMain] [org.hibernate.integrator.internal.IntegratorServiceImpl:46] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2021-07-03 02:11:47.085 [DEBUG] [restartedMain] [org.hibernate.integrator.internal.IntegratorServiceImpl:46] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2021-07-03 02:11:47.086 [DEBUG] [restartedMain] [org.hibernate.integrator.internal.IntegratorServiceImpl:46] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2021-07-03 02:11:47.089 [DEBUG] [restartedMain] [org.hibernate.service.spi.ServiceBinding:68] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2021-07-03 02:11:47.090 [DEBUG] [restartedMain] [org.hibernate.cache.internal.RegionFactoryInitiator:118] Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2021-07-03 02:11:47.090 [DEBUG] [restartedMain] [org.hibernate.cache.internal.RegionFactoryInitiator:49] Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2021-07-03 02:11:47.092 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration boolean -> org.hibernate.type.BooleanType@73a2be19
+2021-07-03 02:11:47.093 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration boolean -> org.hibernate.type.BooleanType@73a2be19
+2021-07-03 02:11:47.093 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@73a2be19
+2021-07-03 02:11:47.094 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@370ff129
+2021-07-03 02:11:47.094 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration true_false -> org.hibernate.type.TrueFalseType@5ed84125
+2021-07-03 02:11:47.095 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration yes_no -> org.hibernate.type.YesNoType@104bdc83
+2021-07-03 02:11:47.095 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration byte -> org.hibernate.type.ByteType@767feae5
+2021-07-03 02:11:47.097 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration byte -> org.hibernate.type.ByteType@767feae5
+2021-07-03 02:11:47.097 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@767feae5
+2021-07-03 02:11:47.098 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration character -> org.hibernate.type.CharacterType@3eb1cbba
+2021-07-03 02:11:47.098 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration char -> org.hibernate.type.CharacterType@3eb1cbba
+2021-07-03 02:11:47.099 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3eb1cbba
+2021-07-03 02:11:47.100 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration short -> org.hibernate.type.ShortType@22fc6420
+2021-07-03 02:11:47.101 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration short -> org.hibernate.type.ShortType@22fc6420
+2021-07-03 02:11:47.101 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@22fc6420
+2021-07-03 02:11:47.102 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration integer -> org.hibernate.type.IntegerType@6c9d0b38
+2021-07-03 02:11:47.103 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration int -> org.hibernate.type.IntegerType@6c9d0b38
+2021-07-03 02:11:47.109 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6c9d0b38
+2021-07-03 02:11:47.109 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration long -> org.hibernate.type.LongType@65bcfc8c
+2021-07-03 02:11:47.110 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration long -> org.hibernate.type.LongType@65bcfc8c
+2021-07-03 02:11:47.110 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.lang.Long -> org.hibernate.type.LongType@65bcfc8c
+2021-07-03 02:11:47.111 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration float -> org.hibernate.type.FloatType@5560179a
+2021-07-03 02:11:47.112 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration float -> org.hibernate.type.FloatType@5560179a
+2021-07-03 02:11:47.113 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5560179a
+2021-07-03 02:11:47.113 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration double -> org.hibernate.type.DoubleType@147cb472
+2021-07-03 02:11:47.114 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration double -> org.hibernate.type.DoubleType@147cb472
+2021-07-03 02:11:47.114 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@147cb472
+2021-07-03 02:11:47.115 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@10bcb90e
+2021-07-03 02:11:47.115 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@10bcb90e
+2021-07-03 02:11:47.116 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@12e67f09
+2021-07-03 02:11:47.121 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@12e67f09
+2021-07-03 02:11:47.122 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration string -> org.hibernate.type.StringType@47ef6608
+2021-07-03 02:11:47.122 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.lang.String -> org.hibernate.type.StringType@47ef6608
+2021-07-03 02:11:47.123 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@36c185a3
+2021-07-03 02:11:47.123 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@43403ebc
+2021-07-03 02:11:47.124 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration url -> org.hibernate.type.UrlType@627f0fea
+2021-07-03 02:11:47.125 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.net.URL -> org.hibernate.type.UrlType@627f0fea
+2021-07-03 02:11:47.125 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration Duration -> org.hibernate.type.DurationType@5e1cea8b
+2021-07-03 02:11:47.126 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@5e1cea8b
+2021-07-03 02:11:47.128 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration Instant -> org.hibernate.type.InstantType@64ca9076
+2021-07-03 02:11:47.129 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@64ca9076
+2021-07-03 02:11:47.130 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@26bdf78d
+2021-07-03 02:11:47.131 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@26bdf78d
+2021-07-03 02:11:47.131 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@3ca7bcef
+2021-07-03 02:11:47.132 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@3ca7bcef
+2021-07-03 02:11:47.132 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@5565142
+2021-07-03 02:11:47.133 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@5565142
+2021-07-03 02:11:47.133 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@352f38be
+2021-07-03 02:11:47.143 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@352f38be
+2021-07-03 02:11:47.146 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@7c67a009
+2021-07-03 02:11:47.147 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@7c67a009
+2021-07-03 02:11:47.147 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7da62bae
+2021-07-03 02:11:47.148 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@7da62bae
+2021-07-03 02:11:47.148 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration date -> org.hibernate.type.DateType@4acda919
+2021-07-03 02:11:47.149 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.sql.Date -> org.hibernate.type.DateType@4acda919
+2021-07-03 02:11:47.149 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration time -> org.hibernate.type.TimeType@66b8236
+2021-07-03 02:11:47.150 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@66b8236
+2021-07-03 02:11:47.150 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration timestamp -> org.hibernate.type.TimestampType@474d0d1a
+2021-07-03 02:11:47.151 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@474d0d1a
+2021-07-03 02:11:47.152 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@474d0d1a
+2021-07-03 02:11:47.152 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@b7aa506
+2021-07-03 02:11:47.155 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration calendar -> org.hibernate.type.CalendarType@2cd85011
+2021-07-03 02:11:47.156 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2cd85011
+2021-07-03 02:11:47.157 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2cd85011
+2021-07-03 02:11:47.159 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@76f80d8e
+2021-07-03 02:11:47.160 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@59f2eb96
+2021-07-03 02:11:47.160 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration locale -> org.hibernate.type.LocaleType@7fe373b
+2021-07-03 02:11:47.161 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7fe373b
+2021-07-03 02:11:47.162 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration currency -> org.hibernate.type.CurrencyType@69c8a70d
+2021-07-03 02:11:47.162 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@69c8a70d
+2021-07-03 02:11:47.162 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration timezone -> org.hibernate.type.TimeZoneType@5f6a53c7
+2021-07-03 02:11:47.163 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5f6a53c7
+2021-07-03 02:11:47.163 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration class -> org.hibernate.type.ClassType@118abde7
+2021-07-03 02:11:47.164 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@118abde7
+2021-07-03 02:11:47.164 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@67bb0702
+2021-07-03 02:11:47.165 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@67bb0702
+2021-07-03 02:11:47.165 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4be72437
+2021-07-03 02:11:47.166 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration binary -> org.hibernate.type.BinaryType@469eb2e7
+2021-07-03 02:11:47.166 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration byte[] -> org.hibernate.type.BinaryType@469eb2e7
+2021-07-03 02:11:47.167 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration [B -> org.hibernate.type.BinaryType@469eb2e7
+2021-07-03 02:11:47.167 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@23f4a56
+2021-07-03 02:11:47.168 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@23f4a56
+2021-07-03 02:11:47.168 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@23f4a56
+2021-07-03 02:11:47.170 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration row_version -> org.hibernate.type.RowVersionType@3d83de04
+2021-07-03 02:11:47.170 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration image -> org.hibernate.type.ImageType@4f37831f
+2021-07-03 02:11:47.171 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration characters -> org.hibernate.type.CharArrayType@7c0d0994
+2021-07-03 02:11:47.179 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration char[] -> org.hibernate.type.CharArrayType@7c0d0994
+2021-07-03 02:11:47.179 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration [C -> org.hibernate.type.CharArrayType@7c0d0994
+2021-07-03 02:11:47.186 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@49891b9
+2021-07-03 02:11:47.187 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@49891b9
+2021-07-03 02:11:47.188 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@49891b9
+2021-07-03 02:11:47.188 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration text -> org.hibernate.type.TextType@27c80cd0
+2021-07-03 02:11:47.188 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration ntext -> org.hibernate.type.NTextType@54144c4d
+2021-07-03 02:11:47.189 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration blob -> org.hibernate.type.BlobType@4041aef2
+2021-07-03 02:11:47.191 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4041aef2
+2021-07-03 02:11:47.195 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@14ea1a
+2021-07-03 02:11:47.195 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration clob -> org.hibernate.type.ClobType@675dc844
+2021-07-03 02:11:47.196 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@675dc844
+2021-07-03 02:11:47.197 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration nclob -> org.hibernate.type.NClobType@11dd86c6
+2021-07-03 02:11:47.197 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@11dd86c6
+2021-07-03 02:11:47.198 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5ca68c31
+2021-07-03 02:11:47.198 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@7b45f985
+2021-07-03 02:11:47.198 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration serializable -> org.hibernate.type.SerializableType@72531141
+2021-07-03 02:11:47.199 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration object -> org.hibernate.type.ObjectType@f45527b
+2021-07-03 02:11:47.199 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@f45527b
+2021-07-03 02:11:47.200 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@67ea90a6
+2021-07-03 02:11:47.200 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@33b7c40f
+2021-07-03 02:11:47.201 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@59041221
+2021-07-03 02:11:47.201 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7cf755f0
+2021-07-03 02:11:47.204 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4fab8568
+2021-07-03 02:11:47.205 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4231b72e
+2021-07-03 02:11:47.205 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3b5d2053
+2021-07-03 02:11:47.206 [DEBUG] [restartedMain] [org.hibernate.type.BasicTypeRegistry:157] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@7d43aa1d
+2021-07-03 02:11:47.209 [DEBUG] [restartedMain] [org.hibernate.boot.internal.BootstrapContextImpl:259] Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6e50e018] into BootstrapContext; was [null]
+2021-07-03 02:11:47.209 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:45] ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6e50e018) [was null]
+2021-07-03 02:11:47.210 [DEBUG] [restartedMain] [org.hibernate.boot.internal.BootstrapContextImpl:269] Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@2197b23b] into BootstrapContext; was [null]
+2021-07-03 02:11:47.210 [DEBUG] [restartedMain] [org.hibernate.boot.internal.BootstrapContextImpl:264] Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@731a41e2] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@13691ede]
+2021-07-03 02:11:47.213 [DEBUG] [restartedMain] [org.hibernate.boot.internal.BootstrapContextImpl:259] Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6e50e018]
+2021-07-03 02:11:47.213 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:45] ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@6e50e018]
+2021-07-03 02:11:47.214 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2021-07-03 02:11:47.215 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2021-07-03 02:11:47.215 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2021-07-03 02:11:47.215 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2021-07-03 02:11:47.216 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2021-07-03 02:11:47.216 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2021-07-03 02:11:47.217 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2021-07-03 02:11:47.217 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-07-03 02:11:47.218 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2021-07-03 02:11:47.218 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2021-07-03 02:11:47.219 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2021-07-03 02:11:47.219 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2021-07-03 02:11:47.219 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2021-07-03 02:11:47.220 [DEBUG] [restartedMain] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory:81] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2021-07-03 02:11:47.223 [INFO] [restartedMain] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-2 - Starting...
+2021-07-03 02:11:47.262 [INFO] [restartedMain] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-2 - Start completed.
+2021-07-03 02:11:47.263 [DEBUG] [restartedMain] [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:72] Database ->
+       name : MySQL
+    version : 8.0.17
+      major : 8
+      minor : 0
+2021-07-03 02:11:47.263 [DEBUG] [restartedMain] [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:83] Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)
+      major : 8
+      minor : 0
+2021-07-03 02:11:47.264 [DEBUG] [restartedMain] [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator:389] JDBC version : 4.2
+2021-07-03 02:11:47.264 [INFO] [restartedMain] [org.hibernate.dialect.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-07-03 02:11:47.265 [DEBUG] [restartedMain] [org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder:115] JDBC driver metadata reported database stores quoted identifiers in more than one case
+2021-07-03 02:11:47.270 [DEBUG] [restartedMain] [org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder:189] IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2021-07-03 02:11:47.285 [DEBUG] [restartedMain] [org.hibernate.boot.model.relational.Namespace:51] Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2021-07-03 02:11:47.287 [DEBUG] [restartedMain] [org.hibernate.type.spi.TypeConfiguration$Scope:152] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3df51208] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@372bcd12]
+2021-07-03 02:11:47.289 [DEBUG] [restartedMain] [org.hibernate.cfg.AnnotationBinder:560] Binding entity from annotated class: com.stockmarket.Stockmarket2FAuthentication.model.Role
+2021-07-03 02:11:47.291 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-07-03 02:11:47.301 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.EntityBinder:430] Import with entity name Role
+2021-07-03 02:11:47.301 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.EntityBinder:873] Bind entity com.stockmarket.Stockmarket2FAuthentication.model.Role on table role
+2021-07-03 02:11:47.304 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=role_id, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.305 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:60] Not known whether passed class name [com.stockmarket.Stockmarket2FAuthentication.model.Role] is safe
+2021-07-03 02:11:47.305 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stockmarket.Stockmarket2FAuthentication.model.Role
+2021-07-03 02:11:47.310 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property roleId with lazy=false
+2021-07-03 02:11:47.311 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.Role:roleId]
+2021-07-03 02:11:47.312 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for roleId
+2021-07-03 02:11:47.313 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property roleId
+2021-07-03 02:11:47.314 [DEBUG] [restartedMain] [org.hibernate.cfg.BinderHelper:643] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(role_id)]), roleId, identity, , ...)
+2021-07-03 02:11:47.314 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.315 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property name with lazy=false
+2021-07-03 02:11:47.315 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.Role:name]
+2021-07-03 02:11:47.316 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for name
+2021-07-03 02:11:47.316 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property name
+2021-07-03 02:11:47.317 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.320 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.321 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=users_key, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.322 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3JoinColumn{logicalColumnName='users_KEY', referencedColumn='null', mappedBy='null'}
+2021-07-03 02:11:47.322 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='roles'}
+2021-07-03 02:11:47.322 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='roles'}
+2021-07-03 02:11:47.323 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.CollectionBinder:449] Collection role: com.stockmarket.Stockmarket2FAuthentication.model.Role.users
+2021-07-03 02:11:47.323 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property users
+2021-07-03 02:11:47.324 [DEBUG] [restartedMain] [org.hibernate.cfg.AnnotationBinder:560] Binding entity from annotated class: com.stockmarket.Stockmarket2FAuthentication.model.User
+2021-07-03 02:11:47.324 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2021-07-03 02:11:47.325 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.EntityBinder:430] Import with entity name User
+2021-07-03 02:11:47.326 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.EntityBinder:873] Bind entity com.stockmarket.Stockmarket2FAuthentication.model.User on table user
+2021-07-03 02:11:47.330 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_id, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.331 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:60] Not known whether passed class name [com.stockmarket.Stockmarket2FAuthentication.model.User] is safe
+2021-07-03 02:11:47.331 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stockmarket.Stockmarket2FAuthentication.model.User
+2021-07-03 02:11:47.332 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property id with lazy=false
+2021-07-03 02:11:47.333 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.User:id]
+2021-07-03 02:11:47.333 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for id
+2021-07-03 02:11:47.334 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property id
+2021-07-03 02:11:47.334 [DEBUG] [restartedMain] [org.hibernate.cfg.BinderHelper:643] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(user_id)]), id, identity, , ...)
+2021-07-03 02:11:47.335 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=created_date, insertable=true, updatable=false, unique=false}
+2021-07-03 02:11:47.336 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property createdDate with lazy=false
+2021-07-03 02:11:47.338 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.User:createdDate]
+2021-07-03 02:11:47.338 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for createdDate
+2021-07-03 02:11:47.339 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property createdDate
+2021-07-03 02:11:47.342 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=display_name, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.343 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property displayName with lazy=false
+2021-07-03 02:11:47.343 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.User:displayName]
+2021-07-03 02:11:47.344 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for displayName
+2021-07-03 02:11:47.345 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property displayName
+2021-07-03 02:11:47.346 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.347 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property email with lazy=false
+2021-07-03 02:11:47.348 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.User:email]
+2021-07-03 02:11:47.348 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for email
+2021-07-03 02:11:47.349 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property email
+2021-07-03 02:11:47.362 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=enabled, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.364 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property enabled with lazy=false
+2021-07-03 02:11:47.364 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.User:enabled]
+2021-07-03 02:11:47.365 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for enabled
+2021-07-03 02:11:47.365 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property enabled
+2021-07-03 02:11:47.366 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=modified_date, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.366 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property modifiedDate with lazy=false
+2021-07-03 02:11:47.367 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.User:modifiedDate]
+2021-07-03 02:11:47.367 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for modifiedDate
+2021-07-03 02:11:47.368 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property modifiedDate
+2021-07-03 02:11:47.369 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.372 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property password with lazy=false
+2021-07-03 02:11:47.372 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.User:password]
+2021-07-03 02:11:47.373 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for password
+2021-07-03 02:11:47.373 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property password
+2021-07-03 02:11:47.374 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=provider, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.374 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property provider with lazy=false
+2021-07-03 02:11:47.375 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.User:provider]
+2021-07-03 02:11:47.375 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for provider
+2021-07-03 02:11:47.376 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property provider
+2021-07-03 02:11:47.378 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=provider_user_id, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.379 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property providerUserId with lazy=false
+2021-07-03 02:11:47.379 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.User:providerUserId]
+2021-07-03 02:11:47.379 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for providerUserId
+2021-07-03 02:11:47.380 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property providerUserId
+2021-07-03 02:11:47.380 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.381 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.382 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=roles_key, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.382 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3JoinColumn{logicalColumnName='roles_KEY', referencedColumn='null', mappedBy='null'}
+2021-07-03 02:11:47.383 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3JoinColumn{logicalColumnName='USER_ID', referencedColumn='', mappedBy=''}
+2021-07-03 02:11:47.383 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3JoinColumn{logicalColumnName='ROLE_ID', referencedColumn='', mappedBy=''}
+2021-07-03 02:11:47.384 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.CollectionBinder:449] Collection role: com.stockmarket.Stockmarket2FAuthentication.model.User.roles
+2021-07-03 02:11:47.385 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property roles
+2021-07-03 02:11:47.386 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=secret, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.387 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property secret with lazy=false
+2021-07-03 02:11:47.387 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.User:secret]
+2021-07-03 02:11:47.388 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for secret
+2021-07-03 02:11:47.389 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property secret
+2021-07-03 02:11:47.390 [DEBUG] [restartedMain] [org.hibernate.cfg.Ejb3Column:213] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=using_2fa, insertable=true, updatable=true, unique=false}
+2021-07-03 02:11:47.390 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:175] MetadataSourceProcessor property using2FA with lazy=false
+2021-07-03 02:11:47.391 [DEBUG] [restartedMain] [org.hibernate.cfg.AbstractPropertyHolder:94] Attempting to locate auto-apply AttributeConverter for property [com.stockmarket.Stockmarket2FAuthentication.model.User:using2FA]
+2021-07-03 02:11:47.391 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:410] building SimpleValue for using2FA
+2021-07-03 02:11:47.401 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.PropertyBinder:266] Building property using2FA
+2021-07-03 02:11:47.403 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for roleId
+2021-07-03 02:11:47.403 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for name
+2021-07-03 02:11:47.403 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for id
+2021-07-03 02:11:47.404 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for createdDate
+2021-07-03 02:11:47.406 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for displayName
+2021-07-03 02:11:47.407 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for email
+2021-07-03 02:11:47.409 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for enabled
+2021-07-03 02:11:47.409 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for modifiedDate
+2021-07-03 02:11:47.410 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for password
+2021-07-03 02:11:47.410 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for provider
+2021-07-03 02:11:47.411 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for providerUserId
+2021-07-03 02:11:47.412 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for secret
+2021-07-03 02:11:47.412 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.SimpleValueBinder:455] Starting fillSimpleValue for using2FA
+2021-07-03 02:11:47.413 [DEBUG] [restartedMain] [org.hibernate.mapping.PrimaryKey:35] Forcing column [role_id] to be non-null as it is part of the primary key for table [role]
+2021-07-03 02:11:47.413 [DEBUG] [restartedMain] [org.hibernate.mapping.PrimaryKey:35] Forcing column [user_id] to be non-null as it is part of the primary key for table [user]
+2021-07-03 02:11:47.414 [DEBUG] [restartedMain] [org.hibernate.cfg.CollectionSecondPass:50] Second pass for collection: com.stockmarket.Stockmarket2FAuthentication.model.User.roles
+2021-07-03 02:11:47.414 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.CollectionBinder:1338] Binding as ManyToMany: com.stockmarket.Stockmarket2FAuthentication.model.User.roles
+2021-07-03 02:11:47.415 [DEBUG] [restartedMain] [org.hibernate.mapping.PrimaryKey:35] Forcing column [user_id] to be non-null as it is part of the primary key for table [user_role]
+2021-07-03 02:11:47.415 [DEBUG] [restartedMain] [org.hibernate.mapping.PrimaryKey:35] Forcing column [role_id] to be non-null as it is part of the primary key for table [user_role]
+2021-07-03 02:11:47.416 [DEBUG] [restartedMain] [org.hibernate.cfg.CollectionSecondPass:67] Mapped collection key: user_id, element: role_id
+2021-07-03 02:11:47.416 [DEBUG] [restartedMain] [org.hibernate.cfg.CollectionSecondPass:50] Second pass for collection: com.stockmarket.Stockmarket2FAuthentication.model.Role.users
+2021-07-03 02:11:47.417 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.CollectionBinder:1338] Binding as ManyToMany: com.stockmarket.Stockmarket2FAuthentication.model.Role.users
+2021-07-03 02:11:47.418 [DEBUG] [restartedMain] [org.hibernate.cfg.annotations.TableBinder:554] Retrieving property com.stockmarket.Stockmarket2FAuthentication.model.User.roles
+2021-07-03 02:11:47.419 [DEBUG] [restartedMain] [org.hibernate.cfg.CollectionSecondPass:67] Mapped collection key: role_id, element: user_id
+2021-07-03 02:11:47.419 [DEBUG] [restartedMain] [org.hibernate.boot.internal.InFlightMetadataCollectorImpl:1869] Resolving reference to class: com.stockmarket.Stockmarket2FAuthentication.model.Role
+2021-07-03 02:11:47.420 [DEBUG] [restartedMain] [org.hibernate.boot.internal.InFlightMetadataCollectorImpl:1869] Resolving reference to class: com.stockmarket.Stockmarket2FAuthentication.model.User
+2021-07-03 02:11:47.422 [DEBUG] [restartedMain] [org.hibernate.boot.internal.InFlightMetadataCollectorImpl:1869] Resolving reference to class: com.stockmarket.Stockmarket2FAuthentication.model.Role
+2021-07-03 02:11:47.423 [DEBUG] [restartedMain] [org.hibernate.boot.internal.InFlightMetadataCollectorImpl:1869] Resolving reference to class: com.stockmarket.Stockmarket2FAuthentication.model.User
+2021-07-03 02:11:47.426 [DEBUG] [restartedMain] [org.hibernate.internal.SessionFactoryImpl:204] Building session factory
+2021-07-03 02:11:47.428 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:68] SessionFactory name : null
+2021-07-03 02:11:47.428 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:69] Automatic flush during beforeCompletion(): enabled
+2021-07-03 02:11:47.429 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:70] Automatic session close at end of transaction: disabled
+2021-07-03 02:11:47.429 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:72] Statistics: disabled
+2021-07-03 02:11:47.430 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:74] Deleted entity synthetic identifier rollback: disabled
+2021-07-03 02:11:47.430 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:75] Default entity-mode: pojo
+2021-07-03 02:11:47.430 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:76] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2021-07-03 02:11:47.431 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:77] Allow initialization of lazy state outside session : disabled
+2021-07-03 02:11:47.431 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:79] Using BatchFetchStyle : LEGACY
+2021-07-03 02:11:47.434 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:80] Default batch fetch size: -1
+2021-07-03 02:11:47.434 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:81] Maximum outer join fetch depth: 2
+2021-07-03 02:11:47.435 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:82] Default null ordering: NONE
+2021-07-03 02:11:47.435 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:83] Order SQL updates by primary key: disabled
+2021-07-03 02:11:47.435 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:84] Order SQL inserts for batching: disabled
+2021-07-03 02:11:47.436 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:86] multi-tenancy strategy : NONE
+2021-07-03 02:11:47.438 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:88] JTA Track by Thread: enabled
+2021-07-03 02:11:47.439 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:90] Query language substitutions: {}
+2021-07-03 02:11:47.439 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:91] Named query checking : enabled
+2021-07-03 02:11:47.440 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:93] Second-level cache: disabled
+2021-07-03 02:11:47.440 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:94] Second-level query cache: disabled
+2021-07-03 02:11:47.440 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:95] Second-level query cache factory: null
+2021-07-03 02:11:47.441 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:96] Second-level cache region prefix: null
+2021-07-03 02:11:47.441 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:97] Optimize second-level cache for minimal puts: disabled
+2021-07-03 02:11:47.441 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:98] Structured second-level cache entries: disabled
+2021-07-03 02:11:47.442 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:99] Second-level cache direct-reference entries: disabled
+2021-07-03 02:11:47.442 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:100] Automatic eviction of collection cache: disabled
+2021-07-03 02:11:47.443 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:102] JDBC batch size: 15
+2021-07-03 02:11:47.443 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:103] JDBC batch updates for versioned data: enabled
+2021-07-03 02:11:47.444 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:104] Scrollable result sets: enabled
+2021-07-03 02:11:47.445 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:105] Wrap result sets: disabled
+2021-07-03 02:11:47.445 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:106] JDBC3 getGeneratedKeys(): enabled
+2021-07-03 02:11:47.446 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:107] JDBC result set fetch size: null
+2021-07-03 02:11:47.446 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:108] Connection release mode: ON_CLOSE
+2021-07-03 02:11:47.447 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:109] Generate SQL with comments: disabled
+2021-07-03 02:11:47.447 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:111] JPA compliance - query : disabled
+2021-07-03 02:11:47.448 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:112] JPA compliance - closed-handling : disabled
+2021-07-03 02:11:47.448 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:113] JPA compliance - lists : disabled
+2021-07-03 02:11:47.448 [DEBUG] [restartedMain] [org.hibernate.cfg.Settings:114] JPA compliance - transactions : disabled
+2021-07-03 02:11:47.458 [DEBUG] [restartedMain] [org.hibernate.internal.SessionFactoryImpl:259] Session factory constructed with filter configurations : {}
+2021-07-03 02:11:47.459 [DEBUG] [restartedMain] [org.hibernate.internal.SessionFactoryImpl:260] Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, hibernate.id.new_generator_mappings=true, java.specification.version=1.8, file.encoding.pkg=sun.io, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@6378f3c, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=C:\Users\User\Codebase\Stockmarket2FAuthentication\target\classes;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.5.2\spring-boot-starter-data-jpa-2.5.2.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.5.2\spring-boot-starter-aop-2.5.2.jar;C:\Users\User\.m2\repository\org\springframework\spring-aop\5.3.8\spring-aop-5.3.8.jar;C:\Users\User\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.5.2\spring-boot-starter-jdbc-2.5.2.jar;C:\Users\User\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\User\.m2\repository\org\springframework\spring-jdbc\5.3.8\spring-jdbc-5.3.8.jar;C:\Users\User\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\User\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\User\.m2\repository\org\hibernate\hibernate-core\5.4.32.Final\hibernate-core-5.4.32.Final.jar;C:\Users\User\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\User\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar;C:\Users\User\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\User\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\User\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\User\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\User\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.4\jaxb-runtime-2.3.4.jar;C:\Users\User\.m2\repository\org\glassfish\jaxb\txw2\2.3.4\txw2-2.3.4.jar;C:\Users\User\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\User\.m2\repository\org\springframework\data\spring-data-jpa\2.5.2\spring-data-jpa-2.5.2.jar;C:\Users\User\.m2\repository\org\springframework\data\spring-data-commons\2.5.2\spring-data-commons-2.5.2.jar;C:\Users\User\.m2\repository\org\springframework\spring-orm\5.3.8\spring-orm-5.3.8.jar;C:\Users\User\.m2\repository\org\springframework\spring-context\5.3.8\spring-context-5.3.8.jar;C:\Users\User\.m2\repository\org\springframework\spring-tx\5.3.8\spring-tx-5.3.8.jar;C:\Users\User\.m2\repository\org\springframework\spring-beans\5.3.8\spring-beans-5.3.8.jar;C:\Users\User\.m2\repository\org\springframework\spring-aspects\5.3.8\spring-aspects-5.3.8.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-starter-oauth2-client\2.5.2\spring-boot-starter-oauth2-client-2.5.2.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.2\spring-boot-starter-2.5.2.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.2\spring-boot-starter-logging-2.5.2.jar;C:\Users\User\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\User\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\User\.m2\repository\org\slf4j\jul-to-slf4j\1.7.31\jul-to-slf4j-1.7.31.jar;C:\Users\User\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\User\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\User\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\User\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\User\.m2\repository\org\springframework\security\spring-security-config\5.5.1\spring-security-config-5.5.1.jar;C:\Users\User\.m2\repository\org\springframework\security\spring-security-core\5.5.1\spring-security-core-5.5.1.jar;C:\Users\User\.m2\repository\org\springframework\security\spring-security-crypto\5.5.1\spring-security-crypto-5.5.1.jar;C:\Users\User\.m2\repository\org\springframework\spring-expression\5.3.8\spring-expression-5.3.8.jar;C:\Users\User\.m2\repository\org\springframework\security\spring-security-oauth2-client\5.5.1\spring-security-oauth2-client-5.5.1.jar;C:\Users\User\.m2\repository\org\springframework\security\spring-security-oauth2-core\5.5.1\spring-security-oauth2-core-5.5.1.jar;C:\Users\User\.m2\repository\org\springframework\security\spring-security-web\5.5.1\spring-security-web-5.5.1.jar;C:\Users\User\.m2\repository\com\nimbusds\oauth2-oidc-sdk\9.9\oauth2-oidc-sdk-9.9.jar;C:\Users\User\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\User\.m2\repository\com\nimbusds\content-type\2.1\content-type-2.1.jar;C:\Users\User\.m2\repository\com\nimbusds\lang-tag\1.5\lang-tag-1.5.jar;C:\Users\User\.m2\repository\org\springframework\security\spring-security-oauth2-jose\5.5.1\spring-security-oauth2-jose-5.5.1.jar;C:\Users\User\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.10\nimbus-jose-jwt-9.10.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.2\spring-boot-starter-web-2.5.2.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.2\spring-boot-starter-json-2.5.2.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.3\jackson-datatype-jdk8-2.12.3.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.3\jackson-datatype-jsr310-2.12.3.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.3\jackson-module-parameter-names-2.12.3.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.2\spring-boot-starter-tomcat-2.5.2.jar;C:\Users\User\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.48\tomcat-embed-core-9.0.48.jar;C:\Users\User\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.48\tomcat-embed-websocket-9.0.48.jar;C:\Users\User\.m2\repository\org\springframework\spring-web\5.3.8\spring-web-5.3.8.jar;C:\Users\User\.m2\repository\org\springframework\spring-webmvc\5.3.8\spring-webmvc-5.3.8.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-starter-validation\2.5.2\spring-boot-starter-validation-2.5.2.jar;C:\Users\User\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.48\tomcat-embed-el-9.0.48.jar;C:\Users\User\.m2\repository\org\hibernate\validator\hibernate-validator\6.2.0.Final\hibernate-validator-6.2.0.Final.jar;C:\Users\User\.m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\2.5.2\spring-boot-starter-actuator-2.5.2.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\2.5.2\spring-boot-actuator-autoconfigure-2.5.2.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-actuator\2.5.2\spring-boot-actuator-2.5.2.jar;C:\Users\User\.m2\repository\io\micrometer\micrometer-core\1.7.1\micrometer-core-1.7.1.jar;C:\Users\User\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\User\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\User\.m2\repository\io\jsonwebtoken\jjwt\0.9.1\jjwt-0.9.1.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\User\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\Users\User\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\User\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\User\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\User\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\User\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\User\.m2\repository\org\springframework\spring-core\5.3.8\spring-core-5.3.8.jar;C:\Users\User\.m2\repository\org\springframework\spring-jcl\5.3.8\spring-jcl-5.3.8.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-devtools\2.5.2\spring-boot-devtools-2.5.2.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot\2.5.2\spring-boot-2.5.2.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.2\spring-boot-autoconfigure-2.5.2.jar;C:\Users\User\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\User\.m2\repository\org\springframework\boot\spring-boot-configuration-processor\2.5.2\spring-boot-configuration-processor-2.5.2.jar;C:\Users\User\.m2\repository\dev\samstevens\totp\totp-spring-boot-starter\1.7.1\totp-spring-boot-starter-1.7.1.jar;C:\Users\User\.m2\repository\dev\samstevens\totp\totp\1.7.1\totp-1.7.1.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\User\.m2\repository\com\google\zxing\core\3.4.0\core-3.4.0.jar;C:\Users\User\.m2\repository\com\google\zxing\javase\3.4.0\javase-3.4.0.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\User\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\Users\User\.m2\repository\io\springfox\springfox-swagger2\2.9.2\springfox-swagger2-2.9.2.jar;C:\Users\User\.m2\repository\io\swagger\swagger-annotations\1.5.20\swagger-annotations-1.5.20.jar;C:\Users\User\.m2\repository\io\swagger\swagger-models\1.5.20\swagger-models-1.5.20.jar;C:\Users\User\.m2\repository\io\springfox\springfox-spi\2.9.2\springfox-spi-2.9.2.jar;C:\Users\User\.m2\repository\io\springfox\springfox-core\2.9.2\springfox-core-2.9.2.jar;C:\Users\User\.m2\repository\io\springfox\springfox-schema\2.9.2\springfox-schema-2.9.2.jar;C:\Users\User\.m2\repository\io\springfox\springfox-swagger-common\2.9.2\springfox-swagger-common-2.9.2.jar;C:\Users\User\.m2\repository\io\springfox\springfox-spring-web\2.9.2\springfox-spring-web-2.9.2.jar;C:\Users\User\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\User\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.31\slf4j-api-1.7.31.jar;C:\Users\User\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\User\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\User\.m2\repository\org\mapstruct\mapstruct\1.2.0.Final\mapstruct-1.2.0.Final.jar;C:\Users\User\.m2\repository\io\springfox\springfox-swagger-ui\2.9.2\springfox-swagger-ui-2.9.2.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=http://java.oracle.com/, catalina.useNaming=false, user.timezone=Asia/Calcutta, os.name=Windows 10, java.vm.specification.version=1.8, javax.persistence.validation.mode=AUTO, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_201\bin, sun.java.command=com.stockmarket.Stockmarket2FAuthentication.Stockmarket2FAuthenticationApplication, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-2), hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@749f7c37, javax.persistence.sharedCache.mode=UNSPECIFIED, sun.cpu.endian=little, user.home=C:\Users\User, user.language=en, java.specification.vendor=Oracle Corporation, java.home=C:\Program Files\Java\jre1.8.0_201, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, FILE_LOG_CHARSET=UTF-8, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.awt.headless=true, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_201\lib\resources.jar;C:\Program Files\Java\jre1.8.0_201\lib\rt.jar;C:\Program Files\Java\jre1.8.0_201\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_201\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_201\lib\jce.jar;C:\Program Files\Java\jre1.8.0_201\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_201\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_201\classes, hibernate.hbm2ddl.auto=create, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_201-b09, user.name=User, path.separator=;, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_201\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\User\AppData\Local\Temp\, catalina.home=C:\Users\User\AppData\Local\Temp\tomcat.9999.1813988561046982158, java.version=1.8.0_201, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=C:\Users\User\Codebase\Stockmarket2FAuthentication, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=15912, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, CONSOLE_LOG_CHARSET=UTF-8, catalina.base=C:\Users\User\AppData\Local\Temp\tomcat.9999.1813988561046982158, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@6341273f, java.library.path=C:\Program Files\Java\jre1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-9.0.4\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Softwares\Template\spark-3.0.0-preview2-bin-hadoop2.7\bin;C:\Softwares\Template\apache-jmeter-5.3\apache-jmeter-5.3\bin;C:\Program Files (x86)\scala\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\apache-maven-3.6.3\bin;C:\Users\User\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python38-32\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\User\AppData\Roaming\npm;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\Desktop;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.201-b09, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, java.ext.dirs=C:\Program Files\Java\jre1.8.0_201\lib\ext;C:\Windows\Sun\Java\lib\ext, hibernate.connection.datasource=HikariDataSource (HikariPool-2), java.class.version=52.0}
+2021-07-03 02:11:47.464 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ValidationXmlParser:120] Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-07-03 02:11:47.465 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:60] Trying to load META-INF/validation.xml via TCCL
+2021-07-03 02:11:47.466 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:66] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-07-03 02:11:47.466 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ValidationXmlParser:127] No META-INF/validation.xml found. Using annotation based configuration only.
+2021-07-03 02:11:47.467 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.resolver.TraversableResolvers:93] Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2021-07-03 02:11:47.467 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.resolver.TraversableResolvers:103] Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2021-07-03 02:11:47.468 [DEBUG] [restartedMain] [org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:172] Loaded expression factory via original TCCL
+2021-07-03 02:11:47.470 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:345] HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-07-03 02:11:47.471 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:420] HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-07-03 02:11:47.472 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:421] HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-07-03 02:11:47.472 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:422] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-07-03 02:11:47.472 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:423] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-07-03 02:11:47.473 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:424] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-07-03 02:11:47.473 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:60] Not known whether passed class name [com.stockmarket.Stockmarket2FAuthentication.model.Role] is safe
+2021-07-03 02:11:47.473 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stockmarket.Stockmarket2FAuthentication.model.Role
+2021-07-03 02:11:47.496 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:60] Not known whether passed class name [com.stockmarket.Stockmarket2FAuthentication.model.User] is safe
+2021-07-03 02:11:47.497 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stockmarket.Stockmarket2FAuthentication.model.User
+2021-07-03 02:11:47.509 [DEBUG] [restartedMain] [org.hibernate.secure.spi.JaccIntegrator:80] Skipping JACC integration as it was not enabled
+2021-07-03 02:11:47.510 [DEBUG] [restartedMain] [org.hibernate.internal.SessionFactoryImpl:300] Instantiated session factory
+2021-07-03 02:11:47.510 [DEBUG] [restartedMain] [org.hibernate.type.spi.TypeConfiguration$Scope:157] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3df51208] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@334b3405]
+2021-07-03 02:11:47.511 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:60] Not known whether passed class name [com.stockmarket.Stockmarket2FAuthentication.model.Role] is safe
+2021-07-03 02:11:47.512 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stockmarket.Stockmarket2FAuthentication.model.Role
+2021-07-03 02:11:47.546 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:60] Not known whether passed class name [com.stockmarket.Stockmarket2FAuthentication.model.User] is safe
+2021-07-03 02:11:47.551 [DEBUG] [restartedMain] [org.hibernate.boot.internal.ClassLoaderAccessImpl:62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.stockmarket.Stockmarket2FAuthentication.model.User
+2021-07-03 02:11:47.795 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:692] Static SQL for collection: com.stockmarket.Stockmarket2FAuthentication.model.Role.users
+2021-07-03 02:11:47.796 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:694]  Row insert: insert into user_role (role_id, user_id) values (?, ?)
+2021-07-03 02:11:47.797 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:697]  Row update: update user_role set user_id=? where role_id=? and user_id=?
+2021-07-03 02:11:47.797 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:700]  Row delete: delete from user_role where role_id=? and user_id=?
+2021-07-03 02:11:47.797 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:703]  One-shot delete: delete from user_role where role_id=?
+2021-07-03 02:11:47.798 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:692] Static SQL for collection: com.stockmarket.Stockmarket2FAuthentication.model.User.roles
+2021-07-03 02:11:47.798 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:694]  Row insert: insert into user_role (user_id, role_id) values (?, ?)
+2021-07-03 02:11:47.799 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:697]  Row update: update user_role set role_id=? where user_id=? and role_id=?
+2021-07-03 02:11:47.799 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:700]  Row delete: delete from user_role where user_id=? and role_id=?
+2021-07-03 02:11:47.800 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:703]  One-shot delete: delete from user_role where user_id=?
+2021-07-03 02:11:47.801 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:3919] Static SQL for entity: com.stockmarket.Stockmarket2FAuthentication.model.Role
+2021-07-03 02:11:47.801 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:3924]  Version select: select role_id from role where role_id =?
+2021-07-03 02:11:47.801 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:3927]  Snapshot select: select role_.role_id, role_.name as name2_0_ from role role_ where role_.role_id=?
+2021-07-03 02:11:47.802 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:394]  Insert 0: insert into role (name, role_id) values (?, ?)
+2021-07-03 02:11:47.802 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:394]  Update 0: update role set name=? where role_id=?
+2021-07-03 02:11:47.803 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:394]  Delete 0: delete from role where role_id=?
+2021-07-03 02:11:47.803 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:3935]  Identity insert: insert into role (name) values (?)
+2021-07-03 02:11:47.804 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl:174] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51438f73]
+2021-07-03 02:11:47.805 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : name
+2021-07-03 02:11:47.805 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : users
+2021-07-03 02:11:47.806 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl:174] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@14048963]
+2021-07-03 02:11:47.806 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl:174] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@269253c5]
+2021-07-03 02:11:47.807 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160] Building LoadPlan...
+2021-07-03 02:11:47.807 [DEBUG] [restartedMain] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor:102] processing queryspace <gen:0>
+2021-07-03 02:11:47.832 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter:55] LoadPlan(entity=com.stockmarket.Stockmarket2FAuthentication.model.Role)
+    - Returns
+       - EntityReturnImpl(entity=com.stockmarket.Stockmarket2FAuthentication.model.Role, querySpaceUid=<gen:0>, path=com.stockmarket.Stockmarket2FAuthentication.model.Role)
+          - CollectionAttributeFetchImpl(collection=com.stockmarket.Stockmarket2FAuthentication.model.Role.users, querySpaceUid=<gen:1>, path=com.stockmarket.Stockmarket2FAuthentication.model.Role.users)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.stockmarket.Stockmarket2FAuthentication.model.User, querySpaceUid=<gen:2>, path=com.stockmarket.Stockmarket2FAuthentication.model.Role.users.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stockmarket.Stockmarket2FAuthentication.model.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {role_id1_0_0_}
+
+2021-07-03 02:11:47.833 [DEBUG] [restartedMain] [org.hibernate.loader.entity.plan.EntityLoader:129] Static select for entity com.stockmarket.Stockmarket2FAuthentication.model.Role [NONE]: select role0_.role_id as role_id1_0_0_, role0_.name as name2_0_0_ from role role0_ where role0_.role_id=?
+2021-07-03 02:11:47.834 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:3919] Static SQL for entity: com.stockmarket.Stockmarket2FAuthentication.model.User
+2021-07-03 02:11:47.834 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:3924]  Version select: select user_id from user where user_id =?
+2021-07-03 02:11:47.834 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:3927]  Snapshot select: select user_.user_id, user_.display_name as display_3_1_, user_.email as email4_1_, user_.enabled as enabled5_1_, user_.modified_date as modified6_1_, user_.password as password7_1_, user_.provider as provider8_1_, user_.provider_user_id as provider9_1_, user_.secret as secret10_1_, user_.using_2fa as using_11_1_ from user user_ where user_.user_id=?
+2021-07-03 02:11:47.835 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:394]  Insert 0: insert into user (created_date, display_name, email, enabled, modified_date, password, provider, provider_user_id, secret, using_2fa, user_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-07-03 02:11:47.835 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:394]  Update 0: update user set display_name=?, email=?, enabled=?, modified_date=?, password=?, provider=?, provider_user_id=?, secret=?, using_2fa=? where user_id=?
+2021-07-03 02:11:47.836 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:394]  Delete 0: delete from user where user_id=?
+2021-07-03 02:11:47.836 [DEBUG] [restartedMain] [org.hibernate.persister.entity.AbstractEntityPersister:3935]  Identity insert: insert into user (created_date, display_name, email, enabled, modified_date, password, provider, provider_user_id, secret, using_2fa) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-07-03 02:11:47.837 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl:174] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6bbdb39]
+2021-07-03 02:11:47.837 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : createdDate
+2021-07-03 02:11:47.837 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : displayName
+2021-07-03 02:11:47.838 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : email
+2021-07-03 02:11:47.838 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : enabled
+2021-07-03 02:11:47.839 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : modifiedDate
+2021-07-03 02:11:47.840 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : password
+2021-07-03 02:11:47.840 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : provider
+2021-07-03 02:11:47.841 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : providerUserId
+2021-07-03 02:11:47.841 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : roles
+2021-07-03 02:11:47.842 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl:174] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@10c7cd70]
+2021-07-03 02:11:47.842 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl:174] Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@760d851c]
+2021-07-03 02:11:47.842 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : secret
+2021-07-03 02:11:47.843 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : using2FA
+2021-07-03 02:11:47.843 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160] Building LoadPlan...
+2021-07-03 02:11:47.844 [DEBUG] [restartedMain] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor:102] processing queryspace <gen:0>
+2021-07-03 02:11:47.844 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter:55] LoadPlan(entity=com.stockmarket.Stockmarket2FAuthentication.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.stockmarket.Stockmarket2FAuthentication.model.User, querySpaceUid=<gen:0>, path=com.stockmarket.Stockmarket2FAuthentication.model.User)
+          - CollectionAttributeFetchImpl(collection=com.stockmarket.Stockmarket2FAuthentication.model.User.roles, querySpaceUid=<gen:1>, path=com.stockmarket.Stockmarket2FAuthentication.model.User.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.stockmarket.Stockmarket2FAuthentication.model.Role, querySpaceUid=<gen:2>, path=com.stockmarket.Stockmarket2FAuthentication.model.User.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.stockmarket.Stockmarket2FAuthentication.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id1_1_0_}
+
+2021-07-03 02:11:47.845 [DEBUG] [restartedMain] [org.hibernate.loader.entity.plan.EntityLoader:129] Static select for entity com.stockmarket.Stockmarket2FAuthentication.model.User [NONE]: select user0_.user_id as user_id1_1_0_, user0_.created_date as created_2_1_0_, user0_.display_name as display_3_1_0_, user0_.email as email4_1_0_, user0_.enabled as enabled5_1_0_, user0_.modified_date as modified6_1_0_, user0_.password as password7_1_0_, user0_.provider as provider8_1_0_, user0_.provider_user_id as provider9_1_0_, user0_.secret as secret10_1_0_, user0_.using_2fa as using_11_1_0_ from user user0_ where user0_.user_id=?
+2021-07-03 02:11:47.845 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl:174] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2eb7faf7]
+2021-07-03 02:11:47.846 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl:174] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2d154276]
+2021-07-03 02:11:47.846 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : createdDate
+2021-07-03 02:11:47.848 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : displayName
+2021-07-03 02:11:47.850 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : email
+2021-07-03 02:11:47.851 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : enabled
+2021-07-03 02:11:47.851 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : modifiedDate
+2021-07-03 02:11:47.851 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : password
+2021-07-03 02:11:47.852 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : provider
+2021-07-03 02:11:47.852 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : providerUserId
+2021-07-03 02:11:47.853 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : roles
+2021-07-03 02:11:47.853 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:154] Property path deemed to be circular : roles
+2021-07-03 02:11:47.853 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : secret
+2021-07-03 02:11:47.854 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : using2FA
+2021-07-03 02:11:47.854 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160] Building LoadPlan...
+2021-07-03 02:11:47.855 [DEBUG] [restartedMain] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor:102] processing queryspace <gen:0>
+2021-07-03 02:11:47.855 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter:55] LoadPlan(collection=com.stockmarket.Stockmarket2FAuthentication.model.Role.users)
+    - Returns
+       - CollectionReturnImpl(collection=com.stockmarket.Stockmarket2FAuthentication.model.Role.users, querySpaceUid=<gen:0>, path=[com.stockmarket.Stockmarket2FAuthentication.model.Role.users])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.stockmarket.Stockmarket2FAuthentication.model.User, querySpaceUid=<gen:1>, path=[com.stockmarket.Stockmarket2FAuthentication.model.Role.users].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.stockmarket.Stockmarket2FAuthentication.model.Role.users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {role_id2_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - user_id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.stockmarket.Stockmarket2FAuthentication.model.User)
+                - SQL table alias mapping - user1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id1_1_1_}
+
+2021-07-03 02:11:47.856 [DEBUG] [restartedMain] [org.hibernate.loader.collection.plan.CollectionLoader:83] Static select for collection com.stockmarket.Stockmarket2FAuthentication.model.Role.users: select users0_.role_id as role_id2_2_0_, users0_.user_id as user_id1_2_0_, user1_.user_id as user_id1_1_1_, user1_.created_date as created_2_1_1_, user1_.display_name as display_3_1_1_, user1_.email as email4_1_1_, user1_.enabled as enabled5_1_1_, user1_.modified_date as modified6_1_1_, user1_.password as password7_1_1_, user1_.provider as provider8_1_1_, user1_.provider_user_id as provider9_1_1_, user1_.secret as secret10_1_1_, user1_.using_2fa as using_11_1_1_ from user_role users0_ inner join user user1_ on users0_.user_id=user1_.user_id where users0_.role_id=?
+2021-07-03 02:11:47.856 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl:174] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@859d762]
+2021-07-03 02:11:47.857 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl:174] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@f5822ed]
+2021-07-03 02:11:47.857 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : name
+2021-07-03 02:11:47.858 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:146] Visiting attribute path : users
+2021-07-03 02:11:47.858 [DEBUG] [restartedMain] [org.hibernate.persister.walking.spi.MetamodelGraphWalker:154] Property path deemed to be circular : users
+2021-07-03 02:11:47.858 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy:160] Building LoadPlan...
+2021-07-03 02:11:47.859 [DEBUG] [restartedMain] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor:102] processing queryspace <gen:0>
+2021-07-03 02:11:47.860 [DEBUG] [restartedMain] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter:55] LoadPlan(collection=com.stockmarket.Stockmarket2FAuthentication.model.User.roles)
+    - Returns
+       - CollectionReturnImpl(collection=com.stockmarket.Stockmarket2FAuthentication.model.User.roles, querySpaceUid=<gen:0>, path=[com.stockmarket.Stockmarket2FAuthentication.model.User.roles])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.stockmarket.Stockmarket2FAuthentication.model.Role, querySpaceUid=<gen:1>, path=[com.stockmarket.Stockmarket2FAuthentication.model.User.roles].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.stockmarket.Stockmarket2FAuthentication.model.User.roles)
+          - SQL table alias mapping - roles0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id1_2_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - role_id1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.stockmarket.Stockmarket2FAuthentication.model.Role)
+                - SQL table alias mapping - role1_
+                - alias suffix - 1_
+                - suffixed key columns - {role_id1_0_1_}
+
+2021-07-03 02:11:47.860 [DEBUG] [restartedMain] [org.hibernate.loader.collection.plan.CollectionLoader:83] Static select for collection com.stockmarket.Stockmarket2FAuthentication.model.User.roles: select roles0_.user_id as user_id1_2_0_, roles0_.role_id as role_id2_2_0_, role1_.role_id as role_id1_0_1_, role1_.name as name2_0_1_ from user_role roles0_ inner join role role1_ on roles0_.role_id=role1_.role_id where roles0_.user_id=?
+2021-07-03 02:11:47.864 [DEBUG] [restartedMain] [org.hibernate.SQL:144] alter table user_role drop foreign key FKa68196081fvovjhkek5m97n3y
+2021-07-03 02:11:47.937 [DEBUG] [restartedMain] [org.hibernate.SQL:144] alter table user_role drop foreign key FK859n2jvi8ivhui0rl0esws6o
+2021-07-03 02:11:47.961 [DEBUG] [restartedMain] [org.hibernate.SQL:144] drop table if exists role
+2021-07-03 02:11:47.993 [DEBUG] [restartedMain] [org.hibernate.SQL:144] drop table if exists user
+2021-07-03 02:11:48.022 [DEBUG] [restartedMain] [org.hibernate.SQL:144] drop table if exists user_role
+2021-07-03 02:11:48.070 [DEBUG] [restartedMain] [org.hibernate.SQL:144] create table role (role_id bigint not null auto_increment, name varchar(255), primary key (role_id)) engine=InnoDB
+2021-07-03 02:11:48.116 [DEBUG] [restartedMain] [org.hibernate.SQL:144] create table user (user_id bigint not null auto_increment, created_date datetime not null, display_name varchar(255), email varchar(255), enabled BIT, modified_date datetime, password varchar(255), provider varchar(255), provider_user_id varchar(255), secret varchar(255), using_2fa bit, primary key (user_id)) engine=InnoDB
+2021-07-03 02:11:48.168 [DEBUG] [restartedMain] [org.hibernate.SQL:144] create table user_role (user_id bigint not null, role_id bigint not null, primary key (user_id, role_id)) engine=InnoDB
+2021-07-03 02:11:48.200 [DEBUG] [restartedMain] [org.hibernate.SQL:144] alter table user_role add constraint FKa68196081fvovjhkek5m97n3y foreign key (role_id) references role (role_id)
+2021-07-03 02:11:48.340 [DEBUG] [restartedMain] [org.hibernate.SQL:144] alter table user_role add constraint FK859n2jvi8ivhui0rl0esws6o foreign key (user_id) references user (user_id)
+2021-07-03 02:11:48.463 [INFO] [restartedMain] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-03 02:11:48.463 [DEBUG] [restartedMain] [org.hibernate.query.spi.NamedQueryRepository:153] Checking 0 named HQL queries
+2021-07-03 02:11:48.464 [DEBUG] [restartedMain] [org.hibernate.query.spi.NamedQueryRepository:167] Checking 0 named SQL queries
+2021-07-03 02:11:48.464 [DEBUG] [restartedMain] [org.hibernate.internal.SessionFactoryRegistry:73] Registering SessionFactory: 57e06876-028f-4b8e-bd53-cedc0a91ff2d (<unnamed>)
+2021-07-03 02:11:48.464 [DEBUG] [restartedMain] [org.hibernate.internal.SessionFactoryRegistry:80] Not binding SessionFactory to JNDI, no JNDI name configured
+2021-07-03 02:11:48.464 [INFO] [restartedMain] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 02:11:48.557 [DEBUG] [restartedMain] [org.hibernate.stat.internal.StatisticsInitiator:101] Statistics initialized [enabled=false]
+2021-07-03 02:11:48.620 [DEBUG] [restartedMain] [org.hibernate.engine.transaction.internal.TransactionImpl:53] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-07-03 02:11:48.625 [DEBUG] [restartedMain] [org.hibernate.engine.transaction.internal.TransactionImpl:53] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-07-03 02:11:48.669 [DEBUG] [restartedMain] [org.hibernate.engine.transaction.internal.TransactionImpl:53] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-07-03 02:11:49.086 [INFO] [restartedMain] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-07-03 02:11:49.146 [INFO] [restartedMain] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-03 02:11:49.186 [INFO] [restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain:51] Will secure Ant [pattern='/v2/api-docs'] with []
+2021-07-03 02:11:49.186 [INFO] [restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain:51] Will secure Ant [pattern='/configuration/ui'] with []
+2021-07-03 02:11:49.186 [INFO] [restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain:51] Will secure Ant [pattern='/swagger-resources/**'] with []
+2021-07-03 02:11:49.186 [INFO] [restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain:51] Will secure Ant [pattern='/configuration/security'] with []
+2021-07-03 02:11:49.187 [INFO] [restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain:51] Will secure Ant [pattern='/swagger-ui.html'] with []
+2021-07-03 02:11:49.187 [INFO] [restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain:51] Will secure Ant [pattern='/webjars/**'] with []
+2021-07-03 02:11:49.187 [INFO] [restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain:51] Will secure Ant [pattern='/actuator/**'] with []
+2021-07-03 02:11:49.309 [INFO] [restartedMain] [org.springframework.security.web.DefaultSecurityFilterChain:51] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bbab616, org.springframework.security.web.context.SecurityContextPersistenceFilter@6740205e, org.springframework.security.web.header.HeaderWriterFilter@74e06980, org.springframework.web.filter.CorsFilter@8ddf15e, org.springframework.security.web.authentication.logout.LogoutFilter@6c48f721, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@28859204, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@199207b3, com.stockmarket.Stockmarket2FAuthentication.security.jwt.TokenAuthenticationFilter@572fb912, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2666815c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@513d5079, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ccc47f3, org.springframework.security.web.session.SessionManagementFilter@28ae7488, org.springframework.security.web.access.ExceptionTranslationFilter@53b24aa0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@15b0c88f]
+2021-07-03 02:11:49.353 [DEBUG] [restartedMain] [org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:172] Loaded expression factory via original TCCL
+2021-07-03 02:11:49.354 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.AbstractConfigurationImpl:174] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-07-03 02:11:49.355 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.AbstractConfigurationImpl:206] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-07-03 02:11:49.355 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.AbstractConfigurationImpl:220] Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-07-03 02:11:49.356 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ValidationXmlParser:120] Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-07-03 02:11:49.356 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:53] Trying to load META-INF/validation.xml via user class loader
+2021-07-03 02:11:49.357 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:60] Trying to load META-INF/validation.xml via TCCL
+2021-07-03 02:11:49.358 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:66] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-07-03 02:11:49.358 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ValidationXmlParser:127] No META-INF/validation.xml found. Using annotation based configuration only.
+2021-07-03 02:11:49.359 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.resolver.TraversableResolvers:93] Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2021-07-03 02:11:49.359 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.resolver.TraversableResolvers:103] Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2021-07-03 02:11:49.360 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:345] HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-07-03 02:11:49.361 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:420] HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-07-03 02:11:49.363 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:421] HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-07-03 02:11:49.363 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:422] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-07-03 02:11:49.363 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:423] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-07-03 02:11:49.364 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:424] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-07-03 02:11:49.381 [DEBUG] [restartedMain] [org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator:172] Loaded expression factory via original TCCL
+2021-07-03 02:11:49.382 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.AbstractConfigurationImpl:174] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-07-03 02:11:49.382 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.AbstractConfigurationImpl:206] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-07-03 02:11:49.382 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.AbstractConfigurationImpl:220] Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-07-03 02:11:49.383 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ValidationXmlParser:120] Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-07-03 02:11:49.383 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:53] Trying to load META-INF/validation.xml via user class loader
+2021-07-03 02:11:49.384 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:60] Trying to load META-INF/validation.xml via TCCL
+2021-07-03 02:11:49.384 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper:66] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-07-03 02:11:49.385 [DEBUG] [restartedMain] [org.hibernate.validator.internal.xml.config.ValidationXmlParser:127] No META-INF/validation.xml found. Using annotation based configuration only.
+2021-07-03 02:11:49.386 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.resolver.TraversableResolvers:93] Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2021-07-03 02:11:49.386 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.resolver.TraversableResolvers:103] Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2021-07-03 02:11:49.413 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:345] HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2021-07-03 02:11:49.416 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:420] HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-07-03 02:11:49.417 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:421] HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-07-03 02:11:49.417 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:422] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-07-03 02:11:49.418 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:423] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-07-03 02:11:49.418 [DEBUG] [restartedMain] [org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper:424] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-07-03 02:11:49.437 [INFO] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+2021-07-03 02:11:49.617 [INFO] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 9999 (http) with context path ''
+2021-07-03 02:11:49.621 [INFO] [restartedMain] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] Context refreshed
+2021-07-03 02:11:49.622 [INFO] [restartedMain] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+2021-07-03 02:11:49.643 [INFO] [restartedMain] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
+2021-07-03 02:11:49.833 [DEBUG] [restartedMain] [org.hibernate.engine.transaction.internal.TransactionImpl:53] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2021-07-03 02:11:49.834 [DEBUG] [restartedMain] [org.hibernate.engine.transaction.internal.TransactionImpl:81] begin
+2021-07-03 02:11:49.844 [DEBUG] [restartedMain] [org.hibernate.query.criteria.internal.CriteriaQueryImpl:303] Rendered criteria query -> select generatedAlias0 from Role as generatedAlias0 where generatedAlias0.name=:param0
+2021-07-03 02:11:49.845 [DEBUG] [restartedMain] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator:45] QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@5f4af232
+2021-07-03 02:11:49.847 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:292] parse() - HQL: select generatedAlias0 from com.stockmarket.Stockmarket2FAuthentication.model.Role as generatedAlias0 where generatedAlias0.name=:param0
+2021-07-03 02:11:49.848 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.ErrorTracker:97] throwQueryException() : no errors
+2021-07-03 02:11:49.939 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:313] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'stockmarket'
+    |  |     |  |  |  \-[IDENT] Node: 'Stockmarket2FAuthentication'
+    |  |     |  |  \-[IDENT] Node: 'model'
+    |  |     |  \-[IDENT] Node: 'Role'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'name'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+2021-07-03 02:11:49.941 [DEBUG] [restartedMain] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:129] select << begin [level=1, statement=select]
+2021-07-03 02:11:49.946 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.tree.FromElement:153] FromClause{level=1} : com.stockmarket.Stockmarket2FAuthentication.model.Role (generatedAlias0) -> role0_
+2021-07-03 02:11:49.947 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.tree.FromReferenceNode:60] Resolved : generatedAlias0 -> role0_.role_id
+2021-07-03 02:11:49.947 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.tree.FromReferenceNode:60] Resolved : generatedAlias0 -> role0_.role_id
+2021-07-03 02:11:49.948 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.tree.DotNode:696] getDataType() : name -> org.hibernate.type.StringType@47ef6608
+2021-07-03 02:11:49.948 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.tree.FromReferenceNode:60] Resolved : generatedAlias0.name -> role0_.name
+2021-07-03 02:11:49.949 [DEBUG] [restartedMain] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:133] select : finishing up [level=1, statement=select]
+2021-07-03 02:11:49.949 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.HqlSqlWalker:762] processQuery() :  ( SELECT ( {select clause} role0_.role_id ) ( FromClause{level=1} role role0_ ) ( where ( = ( role0_.name role0_.role_id name ) ? ) ) )
+2021-07-03 02:11:49.951 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.util.JoinProcessor:129] Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Role): [role]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.stockmarket.Stockmarket2FAuthentication.model.Role)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(com.stockmarket.Stockmarket2FAuthentication.model.Role)
+          | path: generatedAlias0.name
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(com.stockmarket.Stockmarket2FAuthentication.model.Role)
+          |  | originalText: generatedAlias0
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: name
+          \-ParameterNode
+
+2021-07-03 02:11:49.954 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.util.JoinProcessor:304] Using FROM fragment [role role0_]
+2021-07-03 02:11:49.954 [DEBUG] [restartedMain] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:137] select >> end [level=1, statement=select]
+2021-07-03 02:11:49.955 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:279] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (role)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'role0_.role_id as role_id1_0_' {alias=generatedAlias0, className=com.stockmarket.Stockmarket2FAuthentication.model.Role, tableAlias=role0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'role0_.name as name2_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[role0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'role role0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=role,tableAlias=role0_,origin=null,columns={,className=com.stockmarket.Stockmarket2FAuthentication.model.Role}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'role0_.name' {propertyName=name,dereferenceType=PRIMITIVE,getPropertyPath=name,path=generatedAlias0.name,tableAlias=role0_,className=com.stockmarket.Stockmarket2FAuthentication.model.Role,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'role0_.role_id' {alias=generatedAlias0, className=com.stockmarket.Stockmarket2FAuthentication.model.Role, tableAlias=role0_}
+          |  \-[IDENT] IdentNode: 'name' {originalText=name}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@47ef6608}
+
+2021-07-03 02:11:49.955 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.ErrorTracker:97] throwQueryException() : no errors
+2021-07-03 02:11:49.956 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:258] HQL: select generatedAlias0 from com.stockmarket.Stockmarket2FAuthentication.model.Role as generatedAlias0 where generatedAlias0.name=:param0
+2021-07-03 02:11:49.956 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:259] SQL: select role0_.role_id as role_id1_0_, role0_.name as name2_0_ from role role0_ where role0_.name=?
+2021-07-03 02:11:49.956 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.ErrorTracker:97] throwQueryException() : no errors
+2021-07-03 02:11:49.957 [DEBUG] [restartedMain] [org.hibernate.SQL:144] select role0_.role_id as role_id1_0_, role0_.name as name2_0_ from role role0_ where role0_.name=?
+2021-07-03 02:11:49.973 [DEBUG] [restartedMain] [org.hibernate.engine.spi.ActionQueue:281] Executing identity-insert immediately
+2021-07-03 02:11:49.973 [DEBUG] [restartedMain] [org.hibernate.SQL:144] insert into role (name) values (?)
+2021-07-03 02:11:50.138 [DEBUG] [restartedMain] [org.hibernate.id.IdentifierGeneratorHelper:78] Natively generated identity: 1
+2021-07-03 02:11:50.139 [DEBUG] [restartedMain] [org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl:106] HHH000387: ResultSet's statement was not registered
+2021-07-03 02:11:50.140 [DEBUG] [restartedMain] [org.hibernate.query.criteria.internal.CriteriaQueryImpl:303] Rendered criteria query -> select generatedAlias0 from Role as generatedAlias0 where generatedAlias0.name=:param0
+2021-07-03 02:11:50.141 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:140] Processing flush-time cascades
+2021-07-03 02:11:50.141 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:193] Dirty checking collections
+2021-07-03 02:11:50.141 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:114] Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2021-07-03 02:11:50.141 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:121] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2021-07-03 02:11:50.149 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:110] Listing entities:
+2021-07-03 02:11:50.150 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:117] com.stockmarket.Stockmarket2FAuthentication.model.Role{roleId=1, name=ROLE_USER, users=null}
+2021-07-03 02:11:50.150 [DEBUG] [restartedMain] [org.hibernate.SQL:144] select role0_.role_id as role_id1_0_, role0_.name as name2_0_ from role role0_ where role0_.name=?
+2021-07-03 02:11:50.153 [DEBUG] [restartedMain] [org.hibernate.engine.spi.ActionQueue:281] Executing identity-insert immediately
+2021-07-03 02:11:50.153 [DEBUG] [restartedMain] [org.hibernate.SQL:144] insert into role (name) values (?)
+2021-07-03 02:11:50.155 [DEBUG] [restartedMain] [org.hibernate.id.IdentifierGeneratorHelper:78] Natively generated identity: 2
+2021-07-03 02:11:50.155 [DEBUG] [restartedMain] [org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl:106] HHH000387: ResultSet's statement was not registered
+2021-07-03 02:11:50.156 [DEBUG] [restartedMain] [org.hibernate.query.criteria.internal.CriteriaQueryImpl:303] Rendered criteria query -> select generatedAlias0 from Role as generatedAlias0 where generatedAlias0.name=:param0
+2021-07-03 02:11:50.156 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:140] Processing flush-time cascades
+2021-07-03 02:11:50.157 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:193] Dirty checking collections
+2021-07-03 02:11:50.157 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:114] Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+2021-07-03 02:11:50.157 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:121] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2021-07-03 02:11:50.158 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:110] Listing entities:
+2021-07-03 02:11:50.158 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:117] com.stockmarket.Stockmarket2FAuthentication.model.Role{roleId=2, name=ROLE_ADMIN, users=null}
+2021-07-03 02:11:50.158 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:117] com.stockmarket.Stockmarket2FAuthentication.model.Role{roleId=1, name=ROLE_USER, users=null}
+2021-07-03 02:11:50.159 [DEBUG] [restartedMain] [org.hibernate.SQL:144] select role0_.role_id as role_id1_0_, role0_.name as name2_0_ from role role0_ where role0_.name=?
+2021-07-03 02:11:50.161 [DEBUG] [restartedMain] [org.hibernate.engine.spi.ActionQueue:281] Executing identity-insert immediately
+2021-07-03 02:11:50.161 [DEBUG] [restartedMain] [org.hibernate.SQL:144] insert into role (name) values (?)
+2021-07-03 02:11:50.162 [DEBUG] [restartedMain] [org.hibernate.id.IdentifierGeneratorHelper:78] Natively generated identity: 3
+2021-07-03 02:11:50.163 [DEBUG] [restartedMain] [org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl:106] HHH000387: ResultSet's statement was not registered
+2021-07-03 02:11:50.164 [DEBUG] [restartedMain] [org.hibernate.query.criteria.internal.CriteriaQueryImpl:303] Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.email=:param0
+2021-07-03 02:11:50.165 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:292] parse() - HQL: select generatedAlias0 from com.stockmarket.Stockmarket2FAuthentication.model.User as generatedAlias0 where generatedAlias0.email=:param0
+2021-07-03 02:11:50.165 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.ErrorTracker:97] throwQueryException() : no errors
+2021-07-03 02:11:50.166 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:313] --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  \-[IDENT] Node: 'stockmarket'
+    |  |     |  |  |  \-[IDENT] Node: 'Stockmarket2FAuthentication'
+    |  |     |  |  \-[IDENT] Node: 'model'
+    |  |     |  \-[IDENT] Node: 'User'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'email'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+2021-07-03 02:11:50.166 [DEBUG] [restartedMain] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:129] select << begin [level=1, statement=select]
+2021-07-03 02:11:50.167 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.tree.FromElement:153] FromClause{level=1} : com.stockmarket.Stockmarket2FAuthentication.model.User (generatedAlias0) -> user0_
+2021-07-03 02:11:50.168 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.tree.FromReferenceNode:60] Resolved : generatedAlias0 -> user0_.user_id
+2021-07-03 02:11:50.168 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.tree.FromReferenceNode:60] Resolved : generatedAlias0 -> user0_.user_id
+2021-07-03 02:11:50.169 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.tree.DotNode:696] getDataType() : email -> org.hibernate.type.StringType@47ef6608
+2021-07-03 02:11:50.169 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.tree.FromReferenceNode:60] Resolved : generatedAlias0.email -> user0_.email
+2021-07-03 02:11:50.170 [DEBUG] [restartedMain] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:133] select : finishing up [level=1, statement=select]
+2021-07-03 02:11:50.170 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.HqlSqlWalker:762] processQuery() :  ( SELECT ( {select clause} user0_.user_id ) ( FromClause{level=1} user user0_ ) ( where ( = ( user0_.email user0_.user_id email ) ? ) ) )
+2021-07-03 02:11:50.171 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.util.JoinProcessor:129] Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity User): [user]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.stockmarket.Stockmarket2FAuthentication.model.User)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(com.stockmarket.Stockmarket2FAuthentication.model.User)
+          | path: generatedAlias0.email
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(com.stockmarket.Stockmarket2FAuthentication.model.User)
+          |  | originalText: generatedAlias0
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: email
+          \-ParameterNode
+
+2021-07-03 02:11:50.171 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.util.JoinProcessor:304] Using FROM fragment [user user0_]
+2021-07-03 02:11:50.171 [DEBUG] [restartedMain] [org.hibernate.hql.internal.antlr.HqlSqlBaseWalker:137] select >> end [level=1, statement=select]
+2021-07-03 02:11:50.172 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:279] --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.user_id as user_id1_1_' {alias=generatedAlias0, className=com.stockmarket.Stockmarket2FAuthentication.model.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.created_date as created_2_1_, user0_.display_name as display_3_1_, user0_.email as email4_1_, user0_.enabled as enabled5_1_, user0_.modified_date as modified6_1_, user0_.password as password7_1_, user0_.provider as provider8_1_, user0_.provider_user_id as provider9_1_, user0_.secret as secret10_1_, user0_.using_2fa as using_11_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.stockmarket.Stockmarket2FAuthentication.model.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'user0_.email' {propertyName=email,dereferenceType=PRIMITIVE,getPropertyPath=email,path=generatedAlias0.email,tableAlias=user0_,className=com.stockmarket.Stockmarket2FAuthentication.model.User,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'user0_.user_id' {alias=generatedAlias0, className=com.stockmarket.Stockmarket2FAuthentication.model.User, tableAlias=user0_}
+          |  \-[IDENT] IdentNode: 'email' {originalText=email}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@47ef6608}
+
+2021-07-03 02:11:50.173 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.ErrorTracker:97] throwQueryException() : no errors
+2021-07-03 02:11:50.174 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:258] HQL: select generatedAlias0 from com.stockmarket.Stockmarket2FAuthentication.model.User as generatedAlias0 where generatedAlias0.email=:param0
+2021-07-03 02:11:50.174 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.QueryTranslatorImpl:259] SQL: select user0_.user_id as user_id1_1_, user0_.created_date as created_2_1_, user0_.display_name as display_3_1_, user0_.email as email4_1_, user0_.enabled as enabled5_1_, user0_.modified_date as modified6_1_, user0_.password as password7_1_, user0_.provider as provider8_1_, user0_.provider_user_id as provider9_1_, user0_.secret as secret10_1_, user0_.using_2fa as using_11_1_ from user user0_ where user0_.email=?
+2021-07-03 02:11:50.174 [DEBUG] [restartedMain] [org.hibernate.hql.internal.ast.ErrorTracker:97] throwQueryException() : no errors
+2021-07-03 02:11:50.175 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:140] Processing flush-time cascades
+2021-07-03 02:11:50.175 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:193] Dirty checking collections
+2021-07-03 02:11:50.176 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:114] Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+2021-07-03 02:11:50.176 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:121] Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2021-07-03 02:11:50.176 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:110] Listing entities:
+2021-07-03 02:11:50.176 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:117] com.stockmarket.Stockmarket2FAuthentication.model.Role{roleId=2, name=ROLE_ADMIN, users=null}
+2021-07-03 02:11:50.176 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:117] com.stockmarket.Stockmarket2FAuthentication.model.Role{roleId=1, name=ROLE_USER, users=null}
+2021-07-03 02:11:50.177 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:117] com.stockmarket.Stockmarket2FAuthentication.model.Role{roleId=3, name=ROLE_MODERATOR, users=null}
+2021-07-03 02:11:50.177 [DEBUG] [restartedMain] [org.hibernate.SQL:144] select user0_.user_id as user_id1_1_, user0_.created_date as created_2_1_, user0_.display_name as display_3_1_, user0_.email as email4_1_, user0_.enabled as enabled5_1_, user0_.modified_date as modified6_1_, user0_.password as password7_1_, user0_.provider as provider8_1_, user0_.provider_user_id as provider9_1_, user0_.secret as secret10_1_, user0_.using_2fa as using_11_1_ from user user0_ where user0_.email=?
+2021-07-03 02:11:50.399 [DEBUG] [restartedMain] [org.hibernate.engine.spi.ActionQueue:281] Executing identity-insert immediately
+2021-07-03 02:11:50.432 [DEBUG] [restartedMain] [org.hibernate.SQL:144] insert into user (created_date, display_name, email, enabled, modified_date, password, provider, provider_user_id, secret, using_2fa) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-07-03 02:11:50.435 [DEBUG] [restartedMain] [org.hibernate.id.IdentifierGeneratorHelper:78] Natively generated identity: 1
+2021-07-03 02:11:50.436 [DEBUG] [restartedMain] [org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl:106] HHH000387: ResultSet's statement was not registered
+2021-07-03 02:11:50.437 [DEBUG] [restartedMain] [org.hibernate.engine.transaction.internal.TransactionImpl:98] committing
+2021-07-03 02:11:50.437 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:140] Processing flush-time cascades
+2021-07-03 02:11:50.437 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:193] Dirty checking collections
+2021-07-03 02:11:50.442 [DEBUG] [restartedMain] [org.hibernate.engine.internal.Collections:196] Collection found: [com.stockmarket.Stockmarket2FAuthentication.model.User.roles#1], was: [<unreferenced>] (initialized)
+2021-07-03 02:11:50.442 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:114] Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects
+2021-07-03 02:11:50.442 [DEBUG] [restartedMain] [org.hibernate.event.internal.AbstractFlushingEventListener:121] Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections
+2021-07-03 02:11:50.443 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:110] Listing entities:
+2021-07-03 02:11:50.443 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:117] com.stockmarket.Stockmarket2FAuthentication.model.Role{roleId=2, name=ROLE_ADMIN, users=null}
+2021-07-03 02:11:50.443 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:117] com.stockmarket.Stockmarket2FAuthentication.model.Role{roleId=1, name=ROLE_USER, users=null}
+2021-07-03 02:11:50.444 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:117] com.stockmarket.Stockmarket2FAuthentication.model.User{password=$2a$10$Mr1zjnwPGxuaebhS3sqCouQAt0G54gbk2k.YTN/if3WrdT19ik5Qu, createdDate=Sat Jul 03 02:11:50 IST 2021, provider=local, displayName=Admin, roles=[com.stockmarket.Stockmarket2FAuthentication.model.Role#1, com.stockmarket.Stockmarket2FAuthentication.model.Role#2, com.stockmarket.Stockmarket2FAuthentication.model.Role#3], modifiedDate=Sat Jul 03 02:11:50 IST 2021, using2FA=false, id=1, secret=null, providerUserId=null, email=admin@javachinna.com, enabled=true}
+2021-07-03 02:11:50.444 [DEBUG] [restartedMain] [org.hibernate.internal.util.EntityPrinter:117] com.stockmarket.Stockmarket2FAuthentication.model.Role{roleId=3, name=ROLE_MODERATOR, users=null}
+2021-07-03 02:11:50.445 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:1299] Inserting collection: [com.stockmarket.Stockmarket2FAuthentication.model.User.roles#1]
+2021-07-03 02:11:50.445 [DEBUG] [restartedMain] [org.hibernate.SQL:144] insert into user_role (user_id, role_id) values (?, ?)
+2021-07-03 02:11:50.447 [DEBUG] [restartedMain] [org.hibernate.SQL:144] insert into user_role (user_id, role_id) values (?, ?)
+2021-07-03 02:11:50.448 [DEBUG] [restartedMain] [org.hibernate.SQL:144] insert into user_role (user_id, role_id) values (?, ?)
+2021-07-03 02:11:50.449 [DEBUG] [restartedMain] [org.hibernate.persister.collection.AbstractCollectionPersister:384] Done inserting collection: 3 rows inserted
+2021-07-03 02:11:50.455 [DEBUG] [restartedMain] [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl:170] HHH000420: Closing un-released batch
+2021-07-03 02:11:50.456 [INFO] [restartedMain] [com.stockmarket.Stockmarket2FAuthentication.Stockmarket2FAuthenticationApplication:61] Started Stockmarket2FAuthenticationApplication in 5.519 seconds (JVM running for 2086.92)
+2021-07-03 02:11:50.460 [INFO] [restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+2021-07-03 02:15:56.905 [INFO] [Thread-9] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 02:15:56.907 [DEBUG] [Thread-9] [org.hibernate.internal.SessionFactoryImpl:792] HHH000031: Closing
+2021-07-03 02:15:56.908 [DEBUG] [Thread-9] [org.hibernate.type.spi.TypeConfiguration$Scope:350] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@5dc06dfa] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@334b3405]
+2021-07-03 02:15:56.908 [DEBUG] [Thread-9] [org.hibernate.service.internal.AbstractServiceRegistryImpl:419] Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2021-07-03 02:15:56.909 [DEBUG] [Thread-9] [org.hibernate.boot.registry.internal.BootstrapServiceRegistryImpl:295] Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2021-07-03 02:15:56.909 [INFO] [Thread-9] [com.zaxxer.hikari.HikariDataSource:350] HikariPool-2 - Shutdown initiated...
+2021-07-03 02:15:56.927 [INFO] [Thread-9] [com.zaxxer.hikari.HikariDataSource:352] HikariPool-2 - Shutdown completed.
